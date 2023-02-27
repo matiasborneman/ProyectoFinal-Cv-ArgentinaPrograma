@@ -88,9 +88,9 @@ footer p{
     margin-left: 80px;
     }
     #mapaUbicacion{
-        width:auto;
+        width:100%;
     }
     footer{
-        height: auto;
+        height: 100%;
     }
 }

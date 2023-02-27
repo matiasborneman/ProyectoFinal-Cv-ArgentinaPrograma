@@ -86,5 +86,11 @@ footer p{
     }
    #columnas-principal{
     margin-left: 80px;
-}
+    }
+    #mapaUbicacion{
+        width:auto;
+    }
+    footer{
+        height: auto;
+    }
 }

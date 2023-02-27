@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Rampart+One&display=swap');
+
 body::-webkit-scrollbar {
     width: 7px;       
   }
@@ -11,30 +13,38 @@ body::-webkit-scrollbar-thumb {
 
 #navbar{
     background-color: rgba(111,206,227,1);
-    opacity: 88%;
+    opacity: 0.88;
     padding-bottom: 2px;
 }
 h2{
-    font-weight: bold;
+    font-family: 'Rampart One', cursive;
+    font-weight:bolder;
+}
+#foto-perfil{
+    border-radius: 10%;
+    box-shadow: 0 0 2px 2px black;
+    margin-bottom: 20px;
 }
 #container-principal{
-    padding-top: 26.5vh;
-    padding-bottom: 15.5vh;
+    padding-top: 24vh;
+    padding-bottom: 14.3vh;
     background: rgb(15,6,186);
     background: linear-gradient(354deg, rgba(15,6,186,1) 0%, rgba(77,77,105,1) 36%, rgba(111,206,227,1) 100%);
 }
 #container-body{
-    padding-top: 15.5vh;
-    padding-bottom: 28.2vh;
     background: rgb(15,6,186);
     background: linear-gradient(354deg, rgba(15,6,186,1) 0%, rgba(77,77,105,1) 36%, rgba(111,206,227,1) 100%);
+}
+p{
+    font-family: 'Gloock', serif;
+    size: 15px;
 }
 .bloque-info
 {
     margin: 20px;
     padding:20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
+    
+    font-size: 20px;
     color: whitesmoke;
 }
 #container-principal a
@@ -47,31 +57,34 @@ h2{
 }
 .material-symbols-outlined
 {
-    text-decoration: none;
     transition:0.1s;
     scale: 1;
     cursor: pointer;
 }
-.material-symbols-outlined:hover{
+.material-symbols-outlined :hover{
     scale:2;
     cursor: pointer;                
 }
 footer{
     background: rgba(57, 57, 97, 0.911);
-    opacity: 85%;
-    height: 9.5vh;
+    opacity: 0.85;
+    height: 13.2vh;
     position:relative;
     text-align: center;
     font-weight: bold;
 }
+
 footer p{
-    padding-top: 3vh;
+    padding-top: 4vh;
     color: #000000;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:480px) {
     #logo-cv{
         width: 120px;
         height:auto;
     }
+   #columnas-principal{
+    margin-left: 80px;
+}
 }

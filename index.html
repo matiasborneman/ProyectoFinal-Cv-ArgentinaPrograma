@@ -15,7 +15,7 @@
 <body>
     <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary" id="navbar" style="display: none">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Cv</a>
+          <a class="navbar-brand" href="#">Cv</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -28,17 +28,17 @@
               <a class="nav-link" href="#experiencia">Experiencia</a>
               <a class="nav-link" href="#estudios">Estudios</a>
               <a class="nav-link" href="#contacto">Contacto</a>
-              <a class="nav-link disabled">Nombre Presona</a>
+              <a class="nav-link disabled"id="nombre-apellido-navbar"></a>
             </div>
           </div>
         </div>
       </nav>
     <div class="container-fluid" id="container-principal">
-        <div class="row justify-content-center">
-            <div class="col-3">
+        <div class="row justify-content-center" id="columnas-principal">
+            <div class="col-md-3 col-sm-12">
                 <img src="./images/Cv.png" id="logo-cv" width="50%" height="55%" alt="logo cv">
             </div>
-            <div class="col-2">
+            <div class="col-md-2 col-sm-12">
                 <ul><a href="#quien-soy" class="btn btn-light" onclick="mostrarInformacion()">¿QUIEN SOY?</a></ul>
                 <ul><a href="#soft-skill" class="btn btn-light" onclick="mostrarInformacion()">SOFT SKILL</a></ul>
                 <ul><a href="#hard-skill" class="btn btn-light" onclick="mostrarInformacion()">HARD SKILL</a></ul>
@@ -54,51 +54,75 @@
               <div class="bloque-info"id="quien-soy">
                 <h2>¿Quien soy?</h2>
                 <img src="" alt="foto-perfil-cv" id="foto-perfil">
-                <p id="nombre-apellido">Lorem ipsum.</p>
-                <p id="bio">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum sed minus tempora deleniti sunt ex culpa? Itaque sed voluptatibus neque provident nam vitae quas, rerum laudantium autem fugit mollitia tempora.</p>
+                <h3 id="nombre-apellido"></h3>
+                <p id="bio">Hola! soy estudiante de ingenieria en sistemas, actualmente estoy cursando la carrera
+                  conjuntamente con el programa Argentina Programa 4.0 primeros Pasos en front-end.</p>
               </div>
               <div class="bloque-info"id="hard-skill">
-                <h2>Hard Skill</h2>
-                <ul>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, aliquid suscipit! Accusamus nam eaque voluptas? Cumque iusto aspernatur aliquam laborum, quisquam, est obcaecati porro impedit dicta consequuntur, hic debitis reiciendis!</ul>
-                <ul>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum magni, eos aspernatur voluptas quaerat, ratione molestias recusandae iure enim nihil nisi, cupiditate accusantium ipsa ullam aut tempora corrupti dolorum repellat.</ul>
-                <ul>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum magni, eos aspernatur voluptas quaerat, ratione molestias recusandae iure enim nihil nisi, cupiditate accusantium ipsa ullam aut tempora corrupti dolorum repellat.</ul>
-                <ul>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum magni, eos aspernatur voluptas quaerat, ratione molestias recusandae iure enim nihil nisi, cupiditate accusantium ipsa ullam aut tempora corrupti dolorum repellat.</ul>
-                <ul>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum magni, eos aspernatur voluptas quaerat, ratione molestias recusandae iure enim nihil nisi, cupiditate accusantium ipsa ullam aut tempora corrupti dolorum repellat.</ul>
+                <h2>Hard skill</h2>
+                  <li>Pensamiento logico</li>
+                  <li>HTML5</li>
+                  <li>Javascript</li>
+                  <li>html</li>
+                  <li>Css</li>
+                  <li>bootstrap</li>
+                  <li>Git Github</li>
               </div>
               <div class="bloque-info" id="soft-skill">
                 <h2>Soft Skill</h2>
-                <ul>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum magni, eos aspernatur voluptas quaerat, ratione molestias recusandae iure enim nihil nisi, cupiditate accusantium ipsa ullam aut tempora corrupti dolorum repellat.</ul>
-                <ul>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum magni, eos aspernatur voluptas quaerat, ratione molestias recusandae iure enim nihil nisi, cupiditate accusantium ipsa ullam aut tempora corrupti dolorum repellat.</ul>
-                <ul>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum magni, eos aspernatur voluptas quaerat, ratione molestias recusandae iure enim nihil nisi, cupiditate accusantium ipsa ullam aut tempora corrupti dolorum repellat.</ul>
-                <ul>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum magni, eos aspernatur voluptas quaerat, ratione molestias recusandae iure enim nihil nisi, cupiditate accusantium ipsa ullam aut tempora corrupti dolorum repellat.</ul>
+                  <li>Trabajo en equipo</li>
+                  <li>Predisposición para aprender</li>
+                  <li>Buena comunicación grupal</li>
               </div>
               <div class="bloque-info" id="experiencia">
                 <h2>Experiencia</h2>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque corrupti illo placeat. Id incidunt nesciunt autem harum voluptas animi eum sequi, sint perspiciatis debitis.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad incidunt saepe asperiores aliquid aspernatur reiciendis autem recusandae corporis necessitatibus est doloremque cumque, harum voluptates? Natus itaque earum ea commodi quasi!</li>
+                <ul>
+                  <h3>Community mananger(2019-actualidad)</h3>
+                  <p> Edicion de Fotografia, banners, flyer y videos para publicaciones e historias para redes sociales facebook,instagram, twitter.</p>
+                </ul>
+                <ul> 
+                  <h3>Soporte IT (2014-actualidad)</h3>
+                  <p>Reparacion de equipos, instalación de software y hardware, mantenimiento de equipos y redes informaticas, trabajo en servidores y correccion de errores en toda la infraestructura de red.</p>
+                </ul>
               </div>
               <div class="bloque-info" id="estudios">
                 <h2>Estudios</h2>
                 <h3>Estudios Primarios</h3>
-                <li></li>
+                <ul>Elementary Spanish School - EAM Miami - United States(1993-2000) <buttom class="material-symbols-outlined" id ="ubicacionPrimaria" data-bs-toggle="modal" data-bs-target="#modalUbicacion" onclick="agregarUbicacion(srcPrimaria)">travel_explore</buttom></ul>
                 <h3>Estudios secundarios</h3>
-                <li></li>
+                <ul>The Benjamin School(2000-2009) <buttom class="material-symbols-outlined" id ="ubicacionSecundaria" data-bs-toggle="modal" data-bs-target="#modalUbicacion"onclick="agregarUbicacion(srcSecundaria)">travel_explore</buttom></ul>
                 <h3>Estudios universitarios</h3>
-                <li></li>
+                <ul>Universidad de Stanford(2011-actualidad) <buttom class="material-symbols-outlined" id ="ubicacionUniversidad" data-bs-toggle="modal" data-bs-target="#modalUbicacion"onclick="agregarUbicacion(srcUniversidad)">travel_explore</buttom></ul>
               </div>
               <div class="bloque-info"id="contacto">
                 <h2>Contacto</h2>
-                <ul><span class="material-symbols-outlined">mail</span><p id="email">alguien@gmail.com</p></ul>
-                <ul>
-                  <p id="direccion">localidad</p>
-                  <a class="material-symbols-outlined">travel_explore</a>
-                </ul>
+                <span class="material-symbols-outlined">mail</span><p id="email"></p>
+                <p id="direccion"></p>
               </div>
           </div>
         </div>
     </div>
+     <!-- Modal ubicación -->
+     <div class="modal fade" id="modalUbicacion" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Ubicación</h5>
+          </div>
+          <div class="modal-body"id="contenedor-modal">
+            <!-- <iframe id="mapaUbicacion"src="" 
+            width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" >Cerrar</button>
+          </div>
+        </div>
+        </div>
+    </div>
     <footer>
-        <p>Matias Borneman - &copy;2023 - matias_borneman@hotmail.com</p>
+        <p>Matias Borneman - &copy;2023 - matias_borneman@hotmail.com
+
+        Los datos utilizados para este ejemplo son ficticios, tanto su imagen como datos personales son aleatorio</p>
     </footer>
 </body>
 </html>
